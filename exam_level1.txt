@@ -170,7 +170,7 @@ He missed Hogwarts so much it was like having a constant stomachache. He missed 
 
 
 ############################################################################
-### (10/11) 아래 문장의 (^M) 을 제거하세요. (Carriage Return, Ctrl+v+m, %s/^M$//g)
+### (10/11) 아래 문장의 (^M) 을 제거하세요. (Carriage Return, Ctrl+v+m, %s/^M$//g, %s/^M//g, :%s/\s\+$//g)
 
 dos2unix / unix2dos - Text file format converters
 
